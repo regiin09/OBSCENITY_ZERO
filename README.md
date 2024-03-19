@@ -28,8 +28,8 @@ These instructions will get you a copy of the project up and running on your loc
 2. We have given both pip and docker
 
     i. With Flask :
-.
-		I. Change your directory
+
+I. Change your directory
 
         ```sh
         cd OBSCENITY_ZERO
