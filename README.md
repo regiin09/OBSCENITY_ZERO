@@ -32,51 +32,51 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### With Flask :
 
-#### Change your directory
+1. Change your directory
 
     ```sh
 	cd OBSCENITY_ZERO
     ```
 
-#### Install requirements:
+2. Install requirements:
 
-        ```sh
-				pip install -r requirements.txt
-        ```
+    ```sh
+	pip install -r requirements.txt
+    ```
 
-#### Set the Flask application environment variable:
+3. Set the Flask application environment variable:
 
 - In Windows:
 
-```sh
-            set FLASK_APP=app.py
-```
+	```sh
+    set FLASK_APP=app.py
+	```
 
 - In Mac/Linux:
 
-```sh
-            export FLASK_APP=app.py
-```
+	```sh
+    export FLASK_APP=app.py
+	```
 
-#### IV. Run the Flask application:
+4. Run the Flask application:
 
-        ```sh
-        flask run
-        ```
+	```sh
+    flask run
+    ```
 
 ### Using Docker :
 
-#### Build the Docker image:
+1. Build the Docker image:
 
-        ```sh
-        docker build -t OBSCENITY_ZERO .
-        ```
+    ```sh
+    docker build -t OBSCENITY_ZERO .
+    ```
 
-#### Run the application in a Docker container:
+2. Run the application in a Docker container:
 
-        ```sh
-        docker run -p 5000:5000 OBSCENITY_ZERO
-        ```
+	```sh
+    docker run -p 5000:5000 OBSCENITY_ZERO
+    ```
 
 ## Usage
 
