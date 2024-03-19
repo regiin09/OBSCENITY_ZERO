@@ -31,11 +31,17 @@ git clone https://github.com/regiin09/OBSCENITY_ZERO.git
 
 	I. change your directory
 
+
+
+
 ```sh 
 			cd OBSCENITY_ZERO
 ```			
 
-	II. install requiremnets:
+
+
+		II. install requiremnets:
+
 		
 ```sh 
 			pip install -r requirements.txt
