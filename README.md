@@ -25,15 +25,18 @@ These instructions will get you a copy of the project up and running on your loc
     git clone https://github.com/regiin09/OBSCENITY_ZERO.git
     ```
 
-2. We have given both pip and docker
+2. We have given both flask and docker
+
+
+
 
 ### With Flask :
 
 #### Change your directory
 
-        ```sh
-        cd OBSCENITY_ZERO
-        ```
+    ```sh
+	cd OBSCENITY_ZERO
+    ```
 
 #### Install requirements:
 
