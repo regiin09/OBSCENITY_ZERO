@@ -29,34 +29,34 @@ git clone https://github.com/regiin09/OBSCENITY_ZERO.git
 
 	i. With Flask :
 
-		change your directory
+		I. change your directory
 
 ```sh 
 			cd OBSCENITY_ZERO
 ```			
 
-		install requiremnets:
+		II. install requiremnets:
 		
 ```sh 
 			pip install -r requirements.txt
 ```
 
-		Set the Flask application environment variable:
+		III. Set the Flask application environment variable:
 
-			In Windows:
+			III. a. In Windows:
 
 ```sh 
 			set FLASK_APP=app.py  #in windows
 ```		
 
-			In Mac:
+			III. b. In Mac:
 
 ```sh 
 			export FLASK_APP=app.py 
 ```
 
 
-		Run the Flask application:
+		IV. Run the Flask application:
 
 ```sh 
 			flask run
@@ -64,14 +64,14 @@ git clone https://github.com/regiin09/OBSCENITY_ZERO.git
 	
 	ii. Using Docker :
 
-		Build the Docker image:
+		I. Build the Docker image:
 
 ```sh 
 			docker build -t OBSCENITY_ZERO .
 ```
 		
-		Run the application in a Docker container:
-		
+		II. Run the application in a Docker container:
+
 ```sh 
 			docker run -p 5000:5005 OBSCENITY_ZERO
 ```
