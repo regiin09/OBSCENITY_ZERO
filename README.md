@@ -21,74 +21,67 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine:
 
-```sh 
-git clone https://github.com/regiin09/OBSCENITY_ZERO.git 
-```
+    ```sh
+    git clone https://github.com/regiin09/OBSCENITY_ZERO.git
+    ```
 
 2. We have given both pip and docker
 
-	i. With Flask :
+    i. With Flask :
 
-	I. change your directory
+        I. Change your directory
 
+        ```sh
+        cd OBSCENITY_ZERO
+        ```
 
+        II. Install requirements:
 
+        ```sh
+        pip install -r requirements.txt
+        ```
 
-```sh 
-			cd OBSCENITY_ZERO
-```			
+        III. Set the Flask application environment variable:
 
+        - In Windows:
 
+            ```sh
+            set FLASK_APP=app.py
+            ```
 
-		II. install requiremnets:
+        - In Mac/Linux:
 
-		
-```sh 
-			pip install -r requirements.txt
-```
+            ```sh
+            export FLASK_APP=app.py
+            ```
 
-		III. Set the Flask application environment variable:
+        IV. Run the Flask application:
 
-			III. a. In Windows:
+        ```sh
+        flask run
+        ```
 
-```sh 
-			set FLASK_APP=app.py  #in windows
-```		
+    ii. Using Docker :
 
-			III. b. In Mac:
+        I. Build the Docker image:
 
-```sh 
-			export FLASK_APP=app.py 
-```
+        ```sh
+        docker build -t OBSCENITY_ZERO .
+        ```
 
+        II. Run the application in a Docker container:
 
-		IV. Run the Flask application:
-
-```sh 
-			flask run
-```
-	
-	ii. Using Docker :
-
-		I. Build the Docker image:
-
-```sh 
-			docker build -t OBSCENITY_ZERO .
-```
-		
-		II. Run the application in a Docker container:
-
-```sh 
-			docker run -p 5000:5005 OBSCENITY_ZERO
-```
-
+        ```sh
+        docker run -p 5000:5000 OBSCENITY_ZERO
+        ```
 
 ## Usage
-Navigate to http://localhost:5000 in your web browser.
+
+Navigate to `http://localhost:5000` in your web browser.
 Enter the URL of the web page you wish to analyze in the provided input field.
 Click "Submit" to analyze the web page. You will be redirected to a page indicating whether the content is safe or not.
 
-
 ## Acknowledgments
-Flask for the web framework.
-Python community for the invaluable libraries.
+
+- Flask for the web framework.
+- Python community for the invaluable libraries.
