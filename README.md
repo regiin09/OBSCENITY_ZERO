@@ -7,6 +7,7 @@ This Flask application analyzes web pages for offensive content by fetching the 
 - Fetch and analyze web content in real time.
 - Simple web interface for submitting URLs for analysis.
 - Indicates whether the analyzed content is considered safe or not based on predefined criteria.
+- Used Natural Language Tool Kit
 
 ## Getting Started
 
