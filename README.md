@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. We have given both pip and docker
 
-    i. With Flask :
+##i. With Flask :
 
 I. Change your directory
 
@@ -35,21 +35,21 @@ I. Change your directory
         cd OBSCENITY_ZERO
         ```
 
-        II. Install requirements:
+II. Install requirements:
 
         ```sh
 				pip install -r requirements.txt
         ```
 
-        III. Set the Flask application environment variable:
+III. Set the Flask application environment variable:
 
-        - In Windows:
+- In Windows:
 
             ```sh
             set FLASK_APP=app.py
             ```
 
-        - In Mac/Linux:
+- In Mac/Linux:
 
             ```sh
             export FLASK_APP=app.py
