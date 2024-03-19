@@ -66,13 +66,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Using Docker :
 
-1. Build the Docker image:
+1. Change your directory
+
+    ```sh
+	cd OBSCENITY_ZERO
+    ```
+
+2. Build the Docker image:
 
     ```sh
     docker build -t OBSCENITY_ZERO .
     ```
 
-2. Run the application in a Docker container:
+3. Run the application in a Docker container:
 
 	```sh
     docker run -p 5000:5000 OBSCENITY_ZERO
