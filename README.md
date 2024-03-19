@@ -27,49 +27,49 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. We have given both pip and docker
 
-##i. With Flask :
+### With Flask :
 
-I. Change your directory
+#### Change your directory
 
         ```sh
         cd OBSCENITY_ZERO
         ```
 
-II. Install requirements:
+#### Install requirements:
 
         ```sh
 				pip install -r requirements.txt
         ```
 
-III. Set the Flask application environment variable:
+#### Set the Flask application environment variable:
 
 - In Windows:
 
-            ```sh
+```sh
             set FLASK_APP=app.py
-            ```
+```
 
 - In Mac/Linux:
 
-            ```sh
+```sh
             export FLASK_APP=app.py
-            ```
+```
 
-        IV. Run the Flask application:
+#### IV. Run the Flask application:
 
         ```sh
         flask run
         ```
 
-    ii. Using Docker :
+### Using Docker :
 
-        I. Build the Docker image:
+#### Build the Docker image:
 
         ```sh
         docker build -t OBSCENITY_ZERO .
         ```
 
-        II. Run the application in a Docker container:
+#### Run the application in a Docker container:
 
         ```sh
         docker run -p 5000:5000 OBSCENITY_ZERO
