@@ -29,13 +29,13 @@ git clone https://github.com/regiin09/OBSCENITY_ZERO.git
 
 	i. With Flask :
 
-		I. change your directory
+	I. change your directory
 
 ```sh 
 			cd OBSCENITY_ZERO
 ```			
 
-		II. install requiremnets:
+	II. install requiremnets:
 		
 ```sh 
 			pip install -r requirements.txt
